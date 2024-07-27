@@ -20,11 +20,11 @@ This project involves using Terraform to automate the creation and management of
 Start by setting up your Terraform project.
 
 1. Create a new directory for your Terraform project and navigate to it in your terminal.
-2. Create a file named `main.tf`.
+2. Create a file named `provider.tf`.
 
 ### 2. Define Provider
 
-In `main.tf`, define the Spotify provider:
+In `variables.tf`, define the Spotify provider:
 
 ```hcl
 variable "spotify_api_key" {
@@ -79,7 +79,7 @@ spotify_api_key = "Your_Spotify_API_KEY"
 
 ### 7. Continue Creating Terraform Code
 
-Update your `main.tf` to include the creation of Spotify playlists and adding tracks.
+Update your `provider.tf` to include the creation of Spotify playlists and adding tracks.
 
 ### 8. Initialize and Apply Terraform Configuration
 
