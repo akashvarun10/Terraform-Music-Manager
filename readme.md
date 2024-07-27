@@ -79,7 +79,7 @@ spotify_api_key = "Your_Spotify_API_KEY"
 
 ### 7. Continue Creating Terraform Code
 
-Update your `provider.tf` to include the creation of Spotify playlists and adding tracks.
+Update your `playlist.tf` to include the creation of Spotify playlists and adding tracks.
 
 ### 8. Initialize and Apply Terraform Configuration
 
