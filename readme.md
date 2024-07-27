@@ -5,6 +5,8 @@
 ### Fun Project with Terraform
 This project involves using Terraform to automate the creation and management of multiple Spotify playlists for different occasions like morning, evening, party night, etc.
 
+![terraform_plan_artist_automation](./assets/architecture.png)
+
 ## Tech Stack and API-Keys Needed:
 
 1. **Terraform Installed**: Ensure Terraform is installed on your machine.
